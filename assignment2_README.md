@@ -2,7 +2,6 @@
 
 **Two problems, one theme: build models that are validated honestly.**
 
-*EDAB 6808 Assignment 2 · B.Com Business Analytics (Hons), University of the Free State · Pair project, 2026*
 
 ---
 
