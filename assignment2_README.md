@@ -63,7 +63,7 @@ Python · Google Colab · `pandas` · `numpy` · `scikit-learn` · `imbalanced-l
 - The margins between the models are small (hundredths of a percentage point over 12 forecasts), so the three forecasts are best read as a range.
 - **Out-of-sample check:** actual inflation rose to **5.0% by June 2026**. All three models missed this, because they use only past inflation and cannot see shocks such as fuel prices.
 
-![2026 inflation forecast with 95% interval and actuals](images/inflation_forecast_2026.png)
+
 
 ## How to run
 1. Open the notebooks in Google Colab: [Part A](COLAB_LINK_PART_A) · [Part B](COLAB_LINK_PART_B)
