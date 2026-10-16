@@ -65,13 +65,13 @@ Python · Google Colab · `pandas` · `numpy` · `scikit-learn` · `imbalanced-l
 
 
 ## How to run
-1. Open the notebooks in Google Colab: [Part A](COLAB_LINK_PART_A) · [Part B](COLAB_LINK_PART_B)
+1. Open the notebooks in Google Colab: [Part A]([COLAB_LINK_PART_A](https://colab.research.google.com/drive/1MDvWSNSp2ID4EM7hPbGnUUqaZX0D_L94?usp=sharing)) · [Part B]([COLAB_LINK_PART_B](https://colab.research.google.com/drive/1LejUVj8y6XXFrCiyzsSVcBNlG7ZlxZ4b?usp=sharing))
 2. **Part A:** place `train.csv`, `test.csv` and `sample_submission.csv` in the Colab working folder (or your Google Drive), then **Runtime → Run all**. The first cell installs the required packages. The notebook writes `submission.csv` (row_id, anomaly).
 3. **Part B:** upload `CPI_monthly_2020-2026.xlsx` from `part-b-inflation-forecasting/data/`, then **Runtime → Run all**. The notebook writes `CPI_2026_Forecast.xlsx`.
 
 ## Outputs
-- **Part A test predictions:** [submission.csv](SUBMISSION_LINK_HERE) (1,800,567 rows, too large for GitHub, so it's stored on Google Drive)
-- **Part B 2026 forecasts:** `part-b-inflation-forecasting/outputs/CPI_2026_Forecast.xlsx`
+- **Part A test predictions:** [submission.csv]:(https://drive.google.com/file/d/1WXlAQc0IaoRqvr6ZIxT4wvJTiEKJQXi_/view?usp=sharing)) (1,800,567 rows, too large for GitHub, so it's stored on Google Drive)
+- **Part B 2026 forecasts:** `part-b-inflation-forecasting/outputs/CPI_2026_Forecast.xlsx`[https://docs.google.com/spreadsheets/d/1rqdPiuzrZaLLg4c4VUa6oGNp2KOKmBrl/edit?usp=sharing&ouid=103415627662826488641&rtpof=true&sd=true]
 
 ## Repository structure
 ```
@@ -84,26 +84,7 @@ anomaly-detection-and-inflation-forecasting/
 │   ├── data/
 │   │   └── CPI_monthly_2020-2026.xlsx
 │   └── outputs/
-│       └── CPI_2026_Forecast.xlsx
-└── images/
-    ├── anomaly_rate_by_building.png
-    ├── confusion_matrices.png
-    ├── inflation_series.png
-    └── inflation_forecast_2026.png
+     └── CPI_2026_Forecast.xlsx
+
 ```
 
-## Reports and presentations
-- Part A: [Report](REPORT_A_LINK) · [Slides](SLIDES_A_LINK)
-- Part B: [Report](REPORT_B_LINK) · [Slides](SLIDES_B_LINK)
-- [Portfolio page](EPORTFOLIO_LINK_HERE)
-
-## References
-- Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. *Proceedings of the 22nd ACM SIGKDD*, 785–794.
-- Davis, J., & Goadrich, M. (2006). The relationship between precision-recall and ROC curves. *Proceedings of the 23rd ICML*, 233–240.
-- Dorogush, A. V., Ershov, V., & Gulin, A. (2018). CatBoost: Gradient boosting with categorical features support. *arXiv:1810.11363*.
-- Gardner, E. S., & McKenzie, E. (1985). Forecasting trends in time series. *Management Science, 31*(10), 1237–1246.
-- He, H., & Garcia, E. A. (2009). Learning from imbalanced data. *IEEE Transactions on Knowledge and Data Engineering, 21*(9), 1263–1284.
-- Hyndman, R. J., & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice* (3rd ed.). OTexts.
-- Lemaître, G., Nogueira, F., & Aridas, C. K. (2017). Imbalanced-learn: A Python toolbox to tackle the curse of imbalanced datasets in machine learning. *Journal of Machine Learning Research, 18*(17), 1–5.
-- Saito, T., & Rehmsmeier, M. (2015). The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets. *PLoS ONE, 10*(3), e0118432.
-- Statistics South Africa. (2020–2026). *Consumer Price Index (P0141)*.
